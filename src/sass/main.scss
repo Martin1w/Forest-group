@@ -358,7 +358,7 @@ body {
 	position: relative;
 	height: 115vh;
 	width: 100%;
-	background-image: url('./dist/img/yoal-desurmont-jqgsM3B9Fpo-unsplash.jpg');
+	background-image: url('/dist/img/yoal-desurmont-jqgsM3B9Fpo-unsplash.jpg');
 	background-position: center;
 	background-size: cover;
 	color: #fff;
@@ -525,7 +525,7 @@ body {
 	}
 
 	.header {
-		background-image: url('./dist/img/jungle-g4519cf301_1920.jpg');
+		background-image: url('/dist/img/jungle-g4519cf301_1920.jpg');
 		&__text {
 			margin-left: -100px;
 
@@ -547,16 +547,15 @@ body {
 			display: flex;
 		}
 	}
-	
-	section {
-		.invite__img {
-			background-image: url('./dist/img/girl-g798d6cf09_1920.jpg');
 
-			.invite__box-text {
-				font-size: 4rem;
-			}
+	.invite__img {
+		background-image: url('/dist/img/girl-g798d6cf09_1920.jpg');
+
+		.invite__box-text {
+			font-size: 4rem;
 		}
 	}
+
 	.form {
 		flex-direction: row;
 		justify-content: center;
