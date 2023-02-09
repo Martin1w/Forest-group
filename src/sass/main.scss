@@ -169,7 +169,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	background-image: url('/dist/img/jungle-g7c895327d_640.jpg');
+	background-image: url('./dist/img/jungle-g7c895327d_640.jpg');
 	height: 400px;
 	width: 100%;
 	color: #fff;
@@ -234,7 +234,7 @@ body {
 	height: 40vh;
 	width: 100%;
 	margin-top: 3em;
-	background-image: url('/dist/img/girl-g5aa741cb6_640.jpg');
+	background-image: url('./dist/img/girl-g5aa741cb6_640.jpg');
 	background-size: cover;
 	background-position: 50%;
 
@@ -358,7 +358,7 @@ body {
 	position: relative;
 	height: 115vh;
 	width: 100%;
-	background-image: url('/dist/img/yoal-desurmont-jqgsM3B9Fpo-unsplash.jpg');
+	background-image: url('./dist/img/yoal-desurmont-jqgsM3B9Fpo-unsplash.jpg');
 	background-position: center;
 	background-size: cover;
 	color: #fff;
@@ -525,7 +525,7 @@ body {
 	}
 
 	.header {
-		background-image: url('/dist/img/jungle-g4519cf301_1920.jpg');
+		background-image: url('./dist/img/jungle-g4519cf301_1920.jpg');
 		&__text {
 			margin-left: -100px;
 
@@ -549,7 +549,7 @@ body {
 	}
 
 	.invite__img {
-		background-image: url('/dist/img/girl-g798d6cf09_1920.jpg');
+		background-image: url('./dist/img/girl-g798d6cf09_1920.jpg');
 
 		.invite__box-text {
 			font-size: 4rem;
