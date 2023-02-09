@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forest Website | Najpiękniejszy park w Twojej okolicy</title>
+    <!-- @include 'styles.kit' -->
+</head>
+
+<body>
+    <!-- @include 'nav.kit' -->
+
+
+
+    <section class="contact">
+        <div class="contact__hero"></div>
+        <div class="wrapper">
+            <h2 class="contact-header section-heading">Kontakt</h2>
+
+            <div class="form">
+
+
+                <div class="form-text">
+                    <label for="name">Imię</label>
+                    <input type="text" id="name" placeholder="*">
+
+                    <label for="surname">Nazwisko</label>
+                    <input type="text" id="surname" placeholder="*">
+
+                    <label for="mail">E-mail</label>
+                    <input type="email" id="mail" placeholder="*">
+                </div>
+
+
+                <div class="form-area">
+                    <textarea placeholder="Write here..."></textarea>
+                </div>
+            </div>
+
+            <button class="form-btn">Wyślij</button>
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3333.3771081246323!2d10.492550315490684!3d33.33509646262614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzPCsDIwJzA2LjMiTiAxMMKwMjknNDEuMSJF!5e0!3m2!1spl!2spl!4v1675770691714!5m2!1spl!2spl" width="80%" height="330px"
+                    loading="lazy"></iframe>
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+
+    <!-- @include 'footer.kit' -->
+    <script src="/dist/js/main.min.js"></script>
+</body>
+
+</html>
