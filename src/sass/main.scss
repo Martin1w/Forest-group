@@ -356,7 +356,7 @@ body {
 //contact
 .contact {
 	position: relative;
-	height: 115vh;
+	height: 100%;
 	width: 100%;
 	background-image: url('../../dist/img/yoal-desurmont-jqgsM3B9Fpo-unsplash.jpg');
 	background-position: center;
@@ -445,12 +445,17 @@ body {
 }
 
 .map {
-	height: 200px;
+	height: 100%;
+	width: 100%;
 	display: flex;
 	justify-content: center;
 	position: relative;
-	margin-top: 2em;
+	padding: 2em;
 	border: none;
+
+	iframe {
+		border-radius: 8px;
+	}
 }
 //Footer
 .footer {
@@ -583,14 +588,6 @@ body {
 			margin-top: 2em;
 			padding: 1em 7em;
 		}
-	}
-
-	.map {
-		display: flex;
-		justify-content: center;
-		position: relative;
-		margin-top: 4em;
-		border: none;
 	}
 }
 
