@@ -141,7 +141,7 @@ body {
 
 .burger-btn {
 	position: fixed;
-	top: 18px;
+	top: 16px;
 	right: 10px;
 	color: rgb(0, 0, 0);
 	padding: 1.2em;
@@ -294,7 +294,7 @@ body {
 
 	&__option {
 		position: relative;
-		width: 20em;
+		width: 19em;
 		text-align: center;
 		padding: 2em;
 		margin: 1.5em;
@@ -340,7 +340,7 @@ body {
 		list-style: none;
 		// margin-left: 30px;
 		padding-bottom: 30px;
-		font-size: 1.4rem;
+		font-size: 1.5rem;
 
 		.fa-check {
 			color: rgba(8, 244, 55, 0.823);
@@ -509,7 +509,7 @@ body {
 @media (min-width: 390px) {
 	.offers {
 		&__list {
-			margin-left: 45px;
+			margin-left: 40px;
 		}
 	}
 }
